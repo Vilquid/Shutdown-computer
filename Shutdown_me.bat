@@ -16,7 +16,7 @@ if %language% == "IT" goto Italie
 :France
 mode con cols=160 lines=9
 
-rem shutdown -s -t 15
+shutdown -s -t 15
 
 set string1=" /$$$$$$$                                                                    /$$   /$$    "
 set string2="| $$__  $$                                                                  |__/  | $$    "
@@ -49,9 +49,9 @@ timeout /t 05 > nul
 
 
 :USA
-mode con cols=160 lines=9
+mode con cols=155 lines=11
 
-rem shutdown -s -t 15
+shutdown -s -t 15
 
 set string9="  /$$$$$$                            /$$                 /$$             /$$     "
 set string10=" /$$__  $$                          | $$                |__/            | $$    "
@@ -93,9 +93,9 @@ timeout /t 05 > nul
 
 
 :Russie
-mode con cols=160 lines=9
+mode con cols=220 lines=11
 
-rem shutdown -s -t 15
+shutdown -s -t 15
 
 set string20="  /$$$$$$                      /$$                                                                                             /$$       /$$"
 set string21=" /$$__  $$                    | $$                                                                                            | $$      |__/"
@@ -137,9 +137,9 @@ timeout /t 05 > nul
 
 
 :Italie
-mode con cols=160 lines=9
+mode con cols=180 lines=8
 
-rem shutdown -s -t 15
+shutdown -s -t 15
 
 set string31=" /$$$$$$$                                                                      /$$     /$$              "
 set string32="| $$__  $$                                                                    | $$    | $$              "
